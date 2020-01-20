@@ -4,7 +4,10 @@ import PropertyList from './PropertyList/PropertyList';
 
 function App() {
   return (
-    <PropertyList />
+    <div className="main">
+      <h2 className="main__title">Доска объявлений</h2>
+      <PropertyList />
+    </div> 
   );
 }
 

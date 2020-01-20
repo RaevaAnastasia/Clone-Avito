@@ -1,10 +1,11 @@
 import React from 'react';
+import './PropertyItem.css';
 
 function PropertyItem(props) {
     return (
         <div className="property">
             <div className="property__wrap">
-                <h2 className="property__title">{props.title}</h2>
+                <h3 className="property__title">{props.title}</h3>
                 <p className="property__address">{props.address}</p>
                 <span className="property__price">{props.price}</span>
             </div>

@@ -1,0 +1,13 @@
+.property-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.property-item {
+    width: 45%;
+    margin-bottom: 2rem;
+}

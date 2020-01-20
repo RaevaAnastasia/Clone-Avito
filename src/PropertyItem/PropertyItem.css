@@ -1,0 +1,21 @@
+.property {
+    display: flex;
+    justify-content: space-between;
+}
+
+.property__wrap {
+    width: 40%;
+}
+
+.property__price {
+    font-weight: bold;
+}
+
+.property__address {
+    color: #999;
+}
+
+.property__title {
+    color: #009cf0;
+}
+

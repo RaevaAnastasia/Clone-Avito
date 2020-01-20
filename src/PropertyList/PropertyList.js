@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import PropertyItem from '../PropertyItem/PropertyItem.js';
 import axios from 'axios';
+import './PropertyList.css';
 
 function PropertyList() {
     let [list, setList] = useState([]);
@@ -18,7 +19,7 @@ function PropertyList() {
 
     let propertyList = list.map((elem, i) => {
             return <li className="property-item" key={i}>
-                <PropertyItem title={elem.title} address = {elem.address} price = {elem.price} previewImage = {elem.previewImage}/>
+                <PropertyItem title={elem.title} address = {elem.address} price = {elem.price} previewImage = {elem.previewImage} id={elem.id}/>
             </li>
         })
 
