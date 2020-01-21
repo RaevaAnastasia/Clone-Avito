@@ -12,10 +12,7 @@ function PropertyList() {
         })
         .catch(error => {
             alert("Ошибка");
-        }) 
-
-        
-        
+    })     
 
     let propertyList = list.map((elem, i) => {
             return <li className="property-item" key={i}>

@@ -1,13 +1,23 @@
 import React from 'react';
 import './App.css';
+import {Switch,Route} from "react-router-dom";
 import PropertyList from './PropertyList/PropertyList';
+import PropertyDetails from './PropertyDetail/PropertyDetail';
 
 function App() {
   return (
-    <div className="main">
-      <h2 className="main__title">Доска объявлений</h2>
-      <PropertyList />
-    </div> 
+    <Switch>
+      <Route path='/:id' children={<PropertyDetails />}>
+        <PropertyDetails />
+      </Route>
+      <Route path='/'>
+        <div className="main">
+          <h2 className="main__title">Доска объявлений</h2>
+          <PropertyList />
+        </div> 
+      </Route>
+    </Switch>
+    
   );
 }
 
