@@ -6,6 +6,11 @@ import './PropertyDetails.css';
 function PropertyDetails() {
     let {id} = useParams();
     let [result, setResult] = useState([]);
+    let imgs = result.images;
+    let imgList = [];
+    let headImg = document.querySelector('.detail__img');
+    let thumb = document.querySelector('.detail__img-wrap');
+
 
     axios.get('http://134.209.138.34/item/' + id)
         .then(responce => { 
@@ -19,21 +24,42 @@ function PropertyDetails() {
         }
         ))
     
-    let imgs = result.images;
-    let imgList = [];
-    
     if (imgs) {
         imgList =  imgs.map((elem, i) => {
             return <li className="detail__img-item" key={i}>
-                    <img className="detail__img" src={elem} alt={result.title}></img>
+                    <a className="detail__img-link" href={elem}>
+                        <img className="detail__img" src={elem} alt={result.title}></img>
+                        </a>
                 </li>
         })
+    }
+
+    if (thumb) {
+        thumb.onmouseover = function(event) {
+            let thumbnail = event.target.closest('a');
+    
+            if (!thumbnail) return;
+            showThumbnail(thumbnail.href, thumbnail.alt);
+            thumbnail.focus();
+            event.preventDefault();
+        }
+
+
+        thumb.onclick = function(event) {
+            event.preventDefault();
+        }
+    
+        function showThumbnail(href, alt) {
+            headImg.src = href;
+            headImg.alt = alt;
+        }
     }
 
     return (<section className="detail container">
             <div className="detail__left-side">
                 <h1 className="detail__title">{result.title}</h1>
-                 <ul className="detail__img-wrap">
+                <ul className="detail__img-wrap">
+                    {imgList[0]}
                     {imgList}
                 </ul>
             </div>
