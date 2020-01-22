@@ -17,5 +17,15 @@
 
 .property__title {
     color: #009cf0;
+    text-decoration: none;
 }
 
+.property__img-wrap {
+    width: 50%;
+    overflow: hidden;
+}
+
+.property__img {
+    width: 100%;
+    object-fit: contain;
+}

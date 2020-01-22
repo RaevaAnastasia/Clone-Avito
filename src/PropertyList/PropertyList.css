@@ -9,5 +9,12 @@
 
 .property-item {
     width: 45%;
-    margin-bottom: 2rem;
+    margin-bottom: 2rem;  
+}
+
+@media screen and (max-width: 991px) {
+    .property-item {
+        width: 100%;
+       
+    }
 }

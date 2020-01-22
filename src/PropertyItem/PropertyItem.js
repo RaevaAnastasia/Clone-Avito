@@ -6,9 +6,9 @@ function PropertyItem(props) {
 
     return (<div className="property">
             <div className="property__wrap">
-                <h3 className="property__title">
+                <h3>
                     <Router>
-                        <Link to={'/' + props.id} target="_blank" id={props.id}>{props.title}</Link>
+                        <Link className="property__title" to={'/' + props.id} target="_blank" id={props.id}>{props.title}</Link>
                     </Router>      
                 </h3> 
                 <p className="property__address">{props.address}</p>

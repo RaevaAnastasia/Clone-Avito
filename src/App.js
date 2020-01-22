@@ -11,7 +11,7 @@ function App() {
         <PropertyDetails />
       </Route>
       <Route path='/'>
-        <div className="main">
+        <div className="main container">
           <h2 className="main__title">Доска объявлений</h2>
           <PropertyList />
         </div> 
