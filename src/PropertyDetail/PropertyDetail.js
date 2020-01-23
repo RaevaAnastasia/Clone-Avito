@@ -11,12 +11,8 @@ function PropertyDetails() {
     let headImg = document.querySelector('.detail__img');
     let thumb = document.querySelector('.detail__img-wrap');
 
-
     axios.get('http://134.209.138.34/item/' + id)
         .then(responce => { 
-            console.log(responce);
-            console.log(responce.data);
-            console.log(responce.data[0]);
             setResult(responce.data[0]);
         })
         .catch((error => {
@@ -29,11 +25,11 @@ function PropertyDetails() {
             return <li className="detail__img-item" key={i}>
                     <a className="detail__img-link" href={elem}>
                         <img className="detail__img" src={elem} alt={result.title}></img>
-                        </a>
+                    </a>
                 </li>
         })
     }
-
+    
     if (thumb) {
         thumb.onmouseover = function(event) {
             let thumbnail = event.target.closest('a');
@@ -43,7 +39,6 @@ function PropertyDetails() {
             thumbnail.focus();
             event.preventDefault();
         }
-
 
         thumb.onclick = function(event) {
             event.preventDefault();

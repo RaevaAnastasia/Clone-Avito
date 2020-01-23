@@ -24,7 +24,6 @@
     padding-top: 2rem;
 }
 
-
 .detail__subtitle {
     font-weight: bold;
 }
@@ -38,12 +37,19 @@
     margin-bottom: 1rem;
 }
 
+.detail__img-item:first-of-type .detail__img {
+    width: 100%;
+    height: 50vh;
+    object-fit: contain;
+}
+
 .detail__img-item:first-of-type .detail__img-link:focus {
     border: 2px solid transparent;
 }
 
 .detail__img-item {
     width: 15%;
+    height: 4rem;
     overflow: hidden;
     margin-right: 1rem;
     margin-bottom: 1rem;
@@ -60,8 +66,10 @@
 }
 
 .detail__img {
-    width: 100%;
-    object-fit: contain;
+    display: block;
+    width: 6rem;
+    height: 4.5rem;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 991px) {
