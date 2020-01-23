@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/RaevaAnastasia/Clone-Avito.git/static/css/main.182967bd.chunk.css",
-    "main.js": "/RaevaAnastasia/Clone-Avito.git/static/js/main.7888208f.chunk.js",
-    "main.js.map": "/RaevaAnastasia/Clone-Avito.git/static/js/main.7888208f.chunk.js.map",
-    "runtime-main.js": "/RaevaAnastasia/Clone-Avito.git/static/js/runtime-main.85260be3.js",
-    "runtime-main.js.map": "/RaevaAnastasia/Clone-Avito.git/static/js/runtime-main.85260be3.js.map",
-    "static/js/2.35178f3d.chunk.js": "/RaevaAnastasia/Clone-Avito.git/static/js/2.35178f3d.chunk.js",
-    "static/js/2.35178f3d.chunk.js.map": "/RaevaAnastasia/Clone-Avito.git/static/js/2.35178f3d.chunk.js.map",
-    "index.html": "/RaevaAnastasia/Clone-Avito.git/index.html",
-    "precache-manifest.22851b9bc676da93d91afdc3f9c4af69.js": "/RaevaAnastasia/Clone-Avito.git/precache-manifest.22851b9bc676da93d91afdc3f9c4af69.js",
-    "service-worker.js": "/RaevaAnastasia/Clone-Avito.git/service-worker.js",
-    "static/css/main.182967bd.chunk.css.map": "/RaevaAnastasia/Clone-Avito.git/static/css/main.182967bd.chunk.css.map",
-    "static/js/2.35178f3d.chunk.js.LICENSE": "/RaevaAnastasia/Clone-Avito.git/static/js/2.35178f3d.chunk.js.LICENSE"
+    "main.css": "/Clone-Avito/static/css/main.182967bd.chunk.css",
+    "main.js": "/Clone-Avito/static/js/main.88e30f4f.chunk.js",
+    "main.js.map": "/Clone-Avito/static/js/main.88e30f4f.chunk.js.map",
+    "runtime-main.js": "/Clone-Avito/static/js/runtime-main.9bb095b5.js",
+    "runtime-main.js.map": "/Clone-Avito/static/js/runtime-main.9bb095b5.js.map",
+    "static/js/2.35178f3d.chunk.js": "/Clone-Avito/static/js/2.35178f3d.chunk.js",
+    "static/js/2.35178f3d.chunk.js.map": "/Clone-Avito/static/js/2.35178f3d.chunk.js.map",
+    "index.html": "/Clone-Avito/index.html",
+    "precache-manifest.0c9d12f81c9dcdf33da7541bce3d20d3.js": "/Clone-Avito/precache-manifest.0c9d12f81c9dcdf33da7541bce3d20d3.js",
+    "service-worker.js": "/Clone-Avito/service-worker.js",
+    "static/css/main.182967bd.chunk.css.map": "/Clone-Avito/static/css/main.182967bd.chunk.css.map",
+    "static/js/2.35178f3d.chunk.js.LICENSE": "/Clone-Avito/static/js/2.35178f3d.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.85260be3.js",
+    "static/js/runtime-main.9bb095b5.js",
     "static/js/2.35178f3d.chunk.js",
     "static/css/main.182967bd.chunk.css",
-    "static/js/main.7888208f.chunk.js"
+    "static/js/main.88e30f4f.chunk.js"
   ]
 }
