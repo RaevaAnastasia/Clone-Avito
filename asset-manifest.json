@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/RaevaAnastasia/Clone-Avito.git/static/css/main.182967bd.chunk.css",
+    "main.js": "/RaevaAnastasia/Clone-Avito.git/static/js/main.7888208f.chunk.js",
+    "main.js.map": "/RaevaAnastasia/Clone-Avito.git/static/js/main.7888208f.chunk.js.map",
+    "runtime-main.js": "/RaevaAnastasia/Clone-Avito.git/static/js/runtime-main.85260be3.js",
+    "runtime-main.js.map": "/RaevaAnastasia/Clone-Avito.git/static/js/runtime-main.85260be3.js.map",
+    "static/js/2.35178f3d.chunk.js": "/RaevaAnastasia/Clone-Avito.git/static/js/2.35178f3d.chunk.js",
+    "static/js/2.35178f3d.chunk.js.map": "/RaevaAnastasia/Clone-Avito.git/static/js/2.35178f3d.chunk.js.map",
+    "index.html": "/RaevaAnastasia/Clone-Avito.git/index.html",
+    "precache-manifest.22851b9bc676da93d91afdc3f9c4af69.js": "/RaevaAnastasia/Clone-Avito.git/precache-manifest.22851b9bc676da93d91afdc3f9c4af69.js",
+    "service-worker.js": "/RaevaAnastasia/Clone-Avito.git/service-worker.js",
+    "static/css/main.182967bd.chunk.css.map": "/RaevaAnastasia/Clone-Avito.git/static/css/main.182967bd.chunk.css.map",
+    "static/js/2.35178f3d.chunk.js.LICENSE": "/RaevaAnastasia/Clone-Avito.git/static/js/2.35178f3d.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.85260be3.js",
+    "static/js/2.35178f3d.chunk.js",
+    "static/css/main.182967bd.chunk.css",
+    "static/js/main.7888208f.chunk.js"
+  ]
+}
