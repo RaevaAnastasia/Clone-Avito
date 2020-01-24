@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Clone-Avito/static/css/main.182967bd.chunk.css",
-    "main.js": "/Clone-Avito/static/js/main.8ab35e8c.chunk.js",
-    "main.js.map": "/Clone-Avito/static/js/main.8ab35e8c.chunk.js.map",
+    "main.js": "/Clone-Avito/static/js/main.ac732981.chunk.js",
+    "main.js.map": "/Clone-Avito/static/js/main.ac732981.chunk.js.map",
     "runtime-main.js": "/Clone-Avito/static/js/runtime-main.9bb095b5.js",
     "runtime-main.js.map": "/Clone-Avito/static/js/runtime-main.9bb095b5.js.map",
     "static/js/2.35178f3d.chunk.js": "/Clone-Avito/static/js/2.35178f3d.chunk.js",
     "static/js/2.35178f3d.chunk.js.map": "/Clone-Avito/static/js/2.35178f3d.chunk.js.map",
     "index.html": "/Clone-Avito/index.html",
-    "precache-manifest.08fc8f79023c961dab9db90a3f8ae2b3.js": "/Clone-Avito/precache-manifest.08fc8f79023c961dab9db90a3f8ae2b3.js",
+    "precache-manifest.678aaa1c3dce9301be0287a5840b0431.js": "/Clone-Avito/precache-manifest.678aaa1c3dce9301be0287a5840b0431.js",
     "service-worker.js": "/Clone-Avito/service-worker.js",
     "static/css/main.182967bd.chunk.css.map": "/Clone-Avito/static/css/main.182967bd.chunk.css.map",
     "static/js/2.35178f3d.chunk.js.LICENSE": "/Clone-Avito/static/js/2.35178f3d.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.9bb095b5.js",
     "static/js/2.35178f3d.chunk.js",
     "static/css/main.182967bd.chunk.css",
-    "static/js/main.8ab35e8c.chunk.js"
+    "static/js/main.ac732981.chunk.js"
   ]
 }

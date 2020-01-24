@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "20b54ff0a31757be3aebf01de9948560",
+    "revision": "9b3fef831e6a782d343f511e0d52080b",
     "url": "/Clone-Avito/index.html"
   },
   {
-    "revision": "dc4092eb8d0cbefc8b56",
+    "revision": "40df37658bc7882b0d18",
     "url": "/Clone-Avito/static/css/main.182967bd.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Clone-Avito/static/js/2.35178f3d.chunk.js.LICENSE"
   },
   {
-    "revision": "dc4092eb8d0cbefc8b56",
-    "url": "/Clone-Avito/static/js/main.8ab35e8c.chunk.js"
+    "revision": "40df37658bc7882b0d18",
+    "url": "/Clone-Avito/static/js/main.ac732981.chunk.js"
   },
   {
     "revision": "7b8b15735d1e6b6a6323",
