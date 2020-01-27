@@ -7,7 +7,7 @@ import PropertyDetails from './PropertyDetail/PropertyDetail';
 function App() {
   return (
     <Switch>
-      <Route path='/:id' children={<PropertyDetails />}>
+      <Route path='/:id'>
         <PropertyDetails />
       </Route>
       <Route path='/'>
@@ -17,7 +17,6 @@ function App() {
         </div> 
       </Route>
     </Switch>
-    
   );
 }
 
